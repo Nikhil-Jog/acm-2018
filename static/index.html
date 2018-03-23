@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home | ACM @ CMU</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/pe-icons.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon-57x57.png">
+
+    <script type="text/javascript">
+    jQuery(document).ready(function($){
+	'use strict';
+      	jQuery('body').backstretch([
+	        "images/bg/bg1.jpg",
+	        "images/bg/bg2.jpg",
+	        "images/bg/bg3.jpg"
+	    ], {duration: 5000, fade: 500, centeredY: true });
+
+		$("#mapwrapper").gMap({ controls: false,
+         	scrollwheel: false,
+         	markers: [{
+              	latitude:40.7566,
+				longitude: -73.9863,
+          	icon: { image: "images/marker.png",
+              	iconsize: [44,44],
+          		iconanchor: [12,46],
+          		infowindowanchor: [12, 0] } }],
+          	icon: {
+              	image: "images/marker.png",
+             	iconsize: [26, 46],
+              	iconanchor: [12, 46],
+              	infowindowanchor: [12, 0] },
+         	latitude:40.7566,
+         	longitude: -73.9863,
+          	zoom: 14 });
+    });
+    </script>
+</head><!--/head-->
+<body>
+<div id="preloader"></div>
+    <header class="navbar navbar-inverse navbar-fixed-top " role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <i class="fa fa-bars"></i>
+                </button>
+                 <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-gleam bounce-in"></span> ACM@CMU</h1></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/about">About Us</a></li>
+                  <li><a href="/services">Sponsors</a></li>
+                  <li><a href="/events">Events</a></li>
+                  <li><a href="/contact">Contact</a></li>
+                    <li><span class="search-trigger"><i class="fa fa-search"></i></span></li>
+                </ul>
+            </div>
+        </div>
+    </header><!--/header-->
+
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content center centered">
+                                	<!-- <span class="home-icon pe-7s-gleam bounce-in"></span> -->
+                                    <h2 class="boxed animation animated-item-1 fade-down">We see a world where computing helps solve tomorrow's problems.</h2>
+                                    <p class="boxed animation animated-item-2 fade-up">use your skills to advance the profession and make a positive impact.</p>
+                                    <br>
+                                    <a class="btn btn-md animation bounce-in" href="#services">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+    </section><!--/#main-slider-->
+
+    <div id="content-wrapper">
+         <section id="services" class="white">
+                    <div class="container">
+                    <div class="gap"></div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="center gap fade-down section-heading">
+                                    <h2 class="main-title">What We Do</h2>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="service-block">
+                                    <div class="pull-left bounce-in">
+                                        <i class="fa fa-cogs fa fa-md"></i>
+                                    </div>
+                                    <div class="media-body fade-up">
+                                        <h3 class="media-heading">We Work</h3>
+                                        <p>We partner with employers to provide students networking and employment opportunities.
+                                        We host both large and small scale events that provide intimate access to highly competitive and sought after employers.</p>
+                                    </div>
+                                </div>
+                            </div><!--/.col-md-4-->
+                            <div class="col-md-4 col-sm-6"></div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="service-block">
+                                    <div class="pull-left bounce-in">
+                                        <i class="fa fa-thumbs-o-up fa fa-md"></i>
+                                    </div>
+                                    <div class="media-body fade-up">
+                                        <h3 class="media-heading">We Code</h3>
+                                        <p>We are passionate about technology and service. We develop applications that benefit the Carnegie Mellon community at large. </p>
+                                    </div>
+                                </div>
+                            </div><!--/.col-md-4-->
+                        </div><!--/.row-->
+                        <div class="gap"></div>
+                        <div class="row">
+                             <div class="col-md-4 col-sm-6">
+                                <div class="service-block">
+                                    <div class="pull-left bounce-in">
+                                        <i class="fa fa-ticket fa fa-md"></i>
+                                    </div>
+                                    <div class="media-body fade-up">
+                                        <h3 class="media-heading">We Play</h3>
+                                         <p>While much of what ACM does it career or self development oriented, we understand the importance of friendship and relaxation. ACM often hosts get-togethers including networking dinners, ice cream socials and board game nights. </p>
+                                    </div>
+                                </div>
+                            </div><!--/.col-md-4-->
+                            <div class="col-md-4 col-sm-6"></div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="service-block">
+                                    <div class="pull-left bounce-in">
+                                        <i class="fa fa-star fa fa-md"></i>
+                                    </div>
+                                    <div class="media-body fade-up">
+                                        <h3 class="media-heading">We Share</h3>
+                                        <p>ACM regularly organizes a variety of talks ranging from social topics like “How to prepare for an interview” and technical topics from “An introduction to Rasberry Pi”, “Debugging Distributed Systems” to “Crossing Numbers, Humanity and Beauty of Math”.</p>
+                                    </div>
+                                </div>
+                            </div><!--/.col-md-4-->
+                        </div><!--/.row-->
+                    </div>
+
+
+                    <div class="gap"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="center gap fade-down section-heading">
+                                    <h2 class="main-title">Our Skills</h2>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                    <div class="row">
+                         <div class="col-md-3">
+                            <div class="tile-progress tile-cyan bounce-in">
+                                <div class="tile-header">
+                                    <h3>Mentorship</h3>
+                                    <span>If at first you don't succeed... try doing what your mentor told you to do the first time. Our world-class mentors can help you out with any problems you have.</span>
+                                </div>
+                                <div class="tile-progressbar">
+                                    <span data-fill="98.5%" style="width: 100%;"></span>
+                                </div>
+                                <div class="tile-footer">
+                                    <h4>
+                                        <span class="pct-counter counter">100</span>%
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="tile-progress tile-red bounce-in">
+                                <div class="tile-header">
+                                    <h3>Networking</h3>
+                                    <span>Error: Joke not found. We are just that good at connecting people.</span>
+                                </div>
+                                <div class="tile-progressbar">
+                                    <span data-fill="404%" style="width: 100%;"></span>
+                                </div>
+                                <div class="tile-footer">
+                                    <h4>
+                                        <span class="pct-counter counter">404</span>%
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-md-3">
+                                <div class="tile-progress tile-pink bounce-in">
+                                    <div class="tile-header">
+                                        <h3>Education</h3>
+                                        <span>I'll take OS, I'll take Compilers and I will even take Algorithms, but Graphics is where I draw the line! With a wide variety of experiences, our members are a shining example of the best at CMU.</span>
+                                    </div>
+                                    <div class="tile-progressbar">
+                                        <span data-fill="100%" style="width: 100%;"></span>
+                                    </div>
+                                    <div class="   tile-footer">
+                                        <h4>
+                                            <span class="pct-counter counter">100</span>%
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="tile-progress tile-primary bounce-in">
+                                    <div class="tile-header">
+                                        <h3>Computer Science</h3>
+                                        <span>We love servers and stuff. From hackathons to tech talks, we eat, breathe and sleep computer science.</span>
+                                    </div>
+                                    <div class="tile-progressbar">
+                                        <span data-fill="112%" style="width: 100%;"></span>
+                                    </div>
+                                    <div class="tile-footer">
+                                        <h4>
+                                            <span class="pct-counter counter">112</span>%
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--/.row-->
+                           <div class="row">
+                            <div class="col-md-3">
+                                <div class="tile-progress tile-red bounce-in">
+                                    <div class="tile-header">
+                                        <h3>Job Opportunities</h3>
+                                        <span>Dream job guaranteed.*</span>
+                                        <h6>*Terms and conditions may
+                                        apply. </h6>
+                                    </div>
+                                    <div class="tile-progressbar">
+                                        <span data-fill="99.99%" style="width: 100%;"></span>
+                                    </div>
+                                    <div class="tile-footer">
+                                        <h4>
+                                            <span class="pct-counter counter">99.99</span>%
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="tile-progress tile-cyan bounce-in">
+                                    <div class="tile-header">
+                                        <h3>Professional Development</h3>
+                                        <span>Invest in yourself and become the best you can be.</span>
+                                    </div>
+                                    <div class="tile-progressbar">
+                                        <span data-fill="100%" style="width: 100%;"></span>
+                                    </div>
+                                    <div class="tile-footer">
+                                        <h4>
+                                            <span class="pct-counter counter">100</span>%
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="tile-progress tile-primary bounce-in">
+                                    <div class="tile-header">
+                                        <h3>Social Connections</h3>
+                                        <span>Facebook Friends == Friends for life? Learn how to meet people and make meaningful relationships. </span>
+                                    </div>
+                                    <div class="tile-progressbar">
+                                        <span data-fill="90%" style="width: 100%;"></span>
+                                    </div>
+                                    <div class="tile-footer">
+                                        <h4>
+                                            <span class="pct-counter counter">100</span>%
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="tile-progress tile-pink bounce-in">
+                                    <div class="tile-header">
+                                        <h3>Leadership</h3>
+                                        <span>Because wrangling bits is easier than managing people. At ACM, you will have plenty of opportunities to organize events and lead the charge.</span>
+                                    </div>
+                                    <div class="tile-progressbar">
+                                        <span data-fill="100%" style="width: 100%;"></span>
+                                    </div>
+                                    <div class="tile-footer">
+                                        <h4>
+                                            <span class="pct-counter counter">100</span>%
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!--/.row-->
+                    </div>
+                </section>
+        <section id="about-us" class="white">
+        	<div class="container">
+	            <div class="gap"></div>
+	            <div class="row">
+	                <div class="col-md-12">
+	                    <div class="center gap fade-down section-heading">
+	                        <h2 class="main-title">A Little About Us</h2>
+	                        <hr>
+	                    </div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-md-10 col-md-offset-1 fade-up">
+	                    <p>ACM@CMU is Carnegie Mellon's student chapter of the Association for Computing Machinery, the leading premier organization for computing professionals. We are dedicated to promoting interdisciplinary computing and enabling professional development on campus. </p>
+	                </div>
+	                <div class="col-md-4 fade-up">
+	                </div>
+	            </div>
+            </div>
+        </section>
+
+        <!-- <section id="stats" class="divider-section">
+            <div class="gap"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-timer bounce-in"></span></span>
+                            <h1><span class="counter">246000</span></h1>
+                            <h3>HOURS SAVED</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-light bounce-in"></span></span>
+                            <h1><span class="counter">16875</span></h1>
+                            <h3>FRESH IDEAS</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-graph1 bounce-in"></span></span>
+                            <h1><span class="counter">99999999</span></h1>
+                            <h3>HUGE PROFIT</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <div class="center bounce-in">
+                            <span class="stat-icon"><span class="pe-7s-box2 bounce-in"></span></span>
+                            <h1><span class="counter">54875</span></h1>
+                            <h3>THINGS IN BOXES</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gap"></div>
+        </section> -->
+
+        <section id="portfolio" class="white">
+
+            <section id="blog" class="white">
+                <div class="container">
+                    <div class="center gap fade-down section-heading">
+                   		<div class="gap"></div>
+                        <h2 class="main-title">Around ACM</h2>
+                        <hr>
+                        <p>See what's happening around the world.</p>
+                    </div>
+                    <div class="gap"></div>
+                    <div class="row">
+	                    <div class="col-md-4">
+	                        <div class="post">
+	                            <div class="post-img-content">
+	                                <img src="http://www.acm.org/binaries/content/gallery/acm/ctas/sig-and-conferences/turing-award-50.jpg/turing-award-50.jpg/acm%3Adesktopcta" class="img-responsive" />
+	                                <div class="overlay">
+	                                    <a class="preview btn btn-outlined btn-primary" href="http://www.acm.org/turing-award-50"><i class="fa fa-link"></i></a>
+	                                </div>
+	                            </div>
+	                            <div class="content">
+	                                <h2 class="post-title">Celebrating 50 Years of Computing's Greatest Achievements</h2>
+	                                <div class="author">
+	                                    <i class="fa fa-user"></i> By <b>ACM</b> | <i class="fa fa-clock-o"></i> <time datetime="2017-11-03">November 3rd, 2017</time>
+	                                </div>
+	                                <div>
+                                        <p>
+                                        Since its inauguration in 1966, the ACM A.M. Turing Award has recognized major contributions of lasting importance in computing.
+                                        Through the years, it has become the most prestigious technical award in the field, often referred to as the “Nobel Prize of computing.” </p>
+
+                                        <p>
+                                        During the next several months, ACM will celebrate 50 years of the Turing Award and the visionaries who have received it. Our aim is to highlight the significant impact of the contributions of the Turing Laureates on computing and society, to look ahead to the future of technology and innovation, and to help inspire the next generation of computer scientists to invent and dream. </p>
+	                                </div>
+	                                <div class="read-more-wrapper">
+	                                    <a href="http://www.acm.org/turing-award-50" class="btn btn-outlined btn-primary">Read more</a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-4">
+	                        <div class="post">
+	                            <div class="post-img-content">
+	                                <img src="http://www.acm.org/binaries/content/gallery/acm/ctas/people/chris-hankin.png" class="img-responsive" />
+	                                <div class="overlay">
+	                                    <a class="preview btn btn-outlined btn-primary" href="http://www.acm.org/articles/people-of-acm/2017/chris-hankin"><i class="fa fa-link"></i></a>
+	                                </div>
+	                            </div>
+	                            <div class="content">
+	                                <h2 class="post-title">Meet Chris Hankin</h2>
+	                                <div class="author">
+	                                    <i class="fa fa-user"></i> By <b>ACM</b> | <i class="fa fa-clock-o"></i> <time datetime="2014-01-20">November 3rd, 2017</time>
+	                                </div>
+	                                <div>
+                                        <p>
+	                                   Chris Hankin is Professor of Computer Science and Co-Director of the Institute for Security Science and Technology at Imperial College London. He is also Director of the UK’s Research Institute in Trustworthy Industrial Control Systems.
+                                        </p>
+                                        <p>
+                                        He is Chair of the ACM Europe Council and serves on ACM’s Publications Board. He was Editor-in-Chief of ACM Computing Surveys from 2007 to 2013.
+                                        </p>
+                                        <p>
+                                        “The main lesson [of the Equifax breach] is the importance of acting promptly on notification of software updates.”
+
+                                        <br><br><br><br><br></p>
+	                                </div>
+	                                <div class="read-more-wrapper">
+	                                    <a href="http://www.acm.org/articles/people-of-acm/2017/chris-hankin" class="btn btn-outlined btn-primary">Read more</a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+	                    <div class="col-md-4">
+	                        <div class="post">
+	                            <div class="post-img-content">
+	                                <img src="http://www.acm.org/binaries/content/gallery/acm/ctas/publications/pacm_covers.jpg/pacm_covers.jpg/acm%3Adesktopcta" class="img-responsive" />
+	                                <div class="overlay">
+	                                    <a class="preview btn btn-outlined btn-primary" href="http://www.acm.org/publications/pacm"><i class="fa fa-link"></i></a>
+	                                </div>
+	                            </div>
+	                            <div class="content">
+	                                <h2 class="post-title">Introducing Proceedings of the ACM</h2>
+	                                <div class="author">
+	                                    <i class="fa fa-user"></i> By <b>ACM</b> | <i class="fa fa-clock-o"></i> <time datetime="2014-01-20">November 3rd, 2017</time>
+	                                </div>
+	                                <div>
+	                                    Proceedings of the ACM (PACM) is a new journal series with first issues planned for 2017.
+                                        <p>
+                                        It is being launched in recognition of the fact that conference-centric publishing disadvantages the CS community with respect to other scientific disciplines when competing with researchers from other disciplines for top science awards and career progression, and the fact that top ACM conferences have demonstrated high quality and high impact on the field.
+
+                                        <br><br><br><br><br><br><br><br></p>
+	                                </div>
+	                                <div class="read-more-wrapper">
+	                                    <a href="http://www.acm.org/publications/pacm" class="btn btn-outlined btn-primary">Read more</a>
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+                    </div>
+                    <div class="gap"></div>
+                </div>
+       		</section>
+        </div>
+
+    <div id="footer-wrapper">
+        <footer id="footer" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        &copy; 2017 ACM @ CMU | Design by <a target="_blank" href="http://www.distinctivethemes.com" title="Premium Themes and Templates">Distinctive Themes</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <ul class="pull-right">
+                            <li><a id="gototop" class="gototop" href="#"><i class="fa fa-chevron-up"></i></a></li><!--#gototop-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer><!--/#footer-->
+    </div>
+
+
+    <script src="js/plugins.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWDPCiH080dNCTYC-uprmLOn2mt2BMSUk&amp;sensor=true"></script>
+    <script src="js/init.js"></script>
+</body>
+</html>
