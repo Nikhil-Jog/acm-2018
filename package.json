@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Nikhil-Jog/acm-2018/issues"
   },
-  "homepage": "https://github.com/Nikhil-Jog/acm-2018#readme"
+  "homepage": "https://github.com/Nikhil-Jog/acm-2018#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
